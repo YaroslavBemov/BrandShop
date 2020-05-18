@@ -1,2 +1,4 @@
 /psd/*
 .idea
+/sass/index.sass
+/css/index.css.map
