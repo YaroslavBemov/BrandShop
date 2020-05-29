@@ -2,3 +2,6 @@
 .idea
 /sass/index.sass
 /css/index.css.map
+/sass/_font.sass
+/sass/_var.sass
+/sass/component.sass
