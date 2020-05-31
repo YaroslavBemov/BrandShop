@@ -9,16 +9,16 @@
     <script src="https://kit.fontawesome.com/ce56c55028.js" crossorigin="anonymous"></script>
     <title>Brand Shop</title>
 </head>
-<body>
-<header>
-    <div class="container">
+<body class="page">
+<header class="header page__header">
+    <div class="container header__container">
 
-        <div class="logo">
+        <div class="header__logo logo">
             <img class="logo__icon" src="./img/logo-icon.png" alt="logo">
             <span class="logo__text logo__bran">bran<span class="logo__text logo__d">d</span></span>
         </div>
 
-        <div class="search">
+        <div class="header__search search">
 
             <button class="search__filter">
                 browse
@@ -35,16 +35,31 @@
 
         </div>
 
-        <button class="cart">
+        <button class="header__cart">
             <img src="./img/cart-icon.png" alt="cart">
         </button>
 
-        <button class="btn btn-account">
+        <button class="header__btn-account btn">
             my account
             <i class="fas fa-caret-down"></i>
         </button>
 
     </div>
 </header>
+
+<nav class="nav page__nav">
+    <div class="container nav__container">
+        <ul class="nav__ul">
+            <li class="nav__li">Home</li>
+            <li class="nav__li">Man</li>
+            <li class="nav__li">Women</li>
+            <li class="nav__li">Kids</li>
+            <li class="nav__li">Accessorise</li>
+            <li class="nav__li">Featured</li>
+            <li class="nav__li">Hot Deals</li>
+        </ul>
+    </div>
+</nav>
+
 </body>
 </html>
