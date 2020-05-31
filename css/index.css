@@ -11,19 +11,23 @@
   padding: 0;
   font-family: "Lato", sans-serif;
   letter-spacing: 0.35px;
+  font-size: 14px;
   box-sizing: border-box;
 }
 *:focus {
   outline: none;
 }
 
-header {
-  margin-top: 25px;
+.page__header {
+  padding: 25px 0;
 }
 
 .container {
   width: 1140px;
   margin: 0 auto;
+}
+
+.header__container {
   display: flex;
   align-items: center;
 }
@@ -59,7 +63,6 @@ header {
   background-image: linear-gradient(to bottom, #f9f9f9 0%, #f5f5f5 100%);
   color: #222222;
   font-weight: 300;
-  font-size: 14px;
   text-transform: capitalize;
 }
 .search__filter i {
@@ -70,7 +73,6 @@ header {
   height: 38px;
   border: 1px solid #e6e6e6;
   font-weight: 300;
-  font-size: 14px;
   color: #a4a4a4;
   margin-left: -10px;
   padding-left: 16px;
@@ -83,25 +85,44 @@ header {
   background-color: #ffffff;
   color: #a4a4a4;
   font-weight: 400;
-  font-size: 14px;
   margin-left: -5px;
 }
 
-.cart {
+.header__cart {
   background-color: #ffffff;
   border: none;
   margin-left: auto;
 }
 
-.btn-account {
+.header__btn-account {
   margin-left: 26px;
   font-size: 15px;
   font-weight: 400;
   letter-spacing: 0.38px;
   text-transform: capitalize;
 }
-.btn-account i {
+.header__btn-account i {
   padding-left: 8px;
+}
+
+.nav__container {
+  width: 700px;
+}
+
+.nav__ul {
+  padding: 5px 0;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  color: #222222;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.nav__li {
+  padding: 12px;
+}
+.nav__li:hover {
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=index.css.map */
